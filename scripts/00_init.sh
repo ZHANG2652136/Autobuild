@@ -4,7 +4,7 @@ set -ex
 
 
 __get_openwrt() {
-    git clone https://github.com/immortalwrt/immortalwrt
+    git clone https://github.com/immortalwrt/immortalwrt openwrt
 }
 
 __get_other-repos() {
