@@ -35,8 +35,8 @@ cp -rf ../immortalwrt/package/libs/mbedtls package/libs/
 # OLED
 svn export -q https://github.com/NateLol/luci-app-oled/trunk package/new/luci-app-oled
 
-# OpenClash
-svn export -q https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/new/luci-app-openclash
+# openwrt-packages
+svn export -q https://github.com/haiibo/openwrt-packages package/new/openwrt-packages
 
 # Realtek RTL8125/8125B/8126A
 svn export -q https://github.com/sbwml/package_kernel_r8125/trunk package/new/r8125
@@ -63,7 +63,7 @@ cp -rf ../immortalwrt-luci/applications/luci-app-vlmcsd package/new/
 cp -rf ../immortalwrt-packages/net/vlmcsd package/new/
 
 # Zerotier
-cp -rf ../immortalwrt-luci/applications/luci-app-zerotier package/new/
+#cp -rf ../immortalwrt-luci/applications/luci-app-zerotier package/new/
 
 # default settings and translation
 cp -rf ../default-settings package/new/
