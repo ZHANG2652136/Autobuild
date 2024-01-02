@@ -12,7 +12,7 @@
 # AutoCore
 #cp -rf ../immortalwrt/package/emortal/autocore package/new/
 #cp -rf ../immortalwrt/package/utils/mhz package/utils/
-#rm -rf feeds/luci/modules/luci-base
+rm -rf feeds/luci/modules/luci-base
 #cp -rf ../immortalwrt-luci/modules/luci-base feeds/luci/modules
 #rm -rf feeds/luci/modules/luci-mod-status
 #cp -rf ../immortalwrt-luci/modules/luci-mod-status feeds/luci/modules/
